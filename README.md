@@ -1,41 +1,96 @@
-# Gerador de Senhas Seguras
+# 🔐 Secure Password Generator
 
-## Descrição
-Este projeto é um gerador de senhas seguras desenvolvido em Python utilizando a biblioteca Tkinter para a interface gráfica. O objetivo é permitir que os usuários gerem senhas com diferentes níveis de segurança, personalizando a composição das senhas de acordo com suas preferências.
+A powerful and customizable password generator built with **Python** and **Tkinter**, designed to help users create secure passwords effortlessly.
 
-## Funcionalidades
-- **Geração de Senhas**: Cria senhas com base nas preferências do usuário (comprimento, inclusão de letras maiúsculas, minúsculas, números e símbolos).
-- **Avaliação da Força da Senha**: Analisa a força da senha gerada e fornece uma classificação (Fraca, Moderada, Forte).
-- **Copiar Senha**: Permite que o usuário copie a senha gerada para a área de transferência.
-- **Salvar Senha**: Salva a senha gerada em um arquivo de texto com uma descrição opcional.
-- **Dicas de Segurança**: Oferece dicas para a criação de senhas seguras.
+---
 
-## Tecnologias Utilizadas
-- **Python**: Linguagem de programação utilizada para desenvolver o gerador de senhas.
-- **Tkinter**: Biblioteca para construção da interface gráfica do usuário.
+## 📋 Features
 
-## Como Usar
-1. **Instalação**: Certifique-se de ter o Python instalado em seu sistema. Você pode baixar o Python [aqui](https://www.python.org/downloads/).
-2. **Executar o Código**: Salve o código em um arquivo `.py` e execute-o utilizando o terminal ou um ambiente de desenvolvimento integrado (IDE).
-3. **Configurações**:
-   - Insira o comprimento desejado da senha.
-   - Selecione as opções para incluir letras maiúsculas, minúsculas, números e símbolos.
-   - Escolha se deseja uma senha memorizável.
-4. **Gerar Senha**: Clique no botão "Gerar Senha" para criar uma nova senha.
-5. **Avaliar a Força**: A força da senha gerada será exibida automaticamente.
-6. **Copiar ou Salvar**: Use os botões para copiar a senha para a área de transferência ou salvá-la em um arquivo de texto.
+✅ **Password Generation**  
+Generate strong passwords based on selected preferences:  
+- Uppercase letters  
+- Lowercase letters  
+- Numbers  
+- Symbols  
+- Custom length  
 
-## Exemplo de Uso
-```python
-senha = gerar_senha(comprimento=16, maiusculas=True, minusculas=True, numeros=True, simbolos=True)
-print(senha)
+🔍 **Password Strength Checker**  
+Automatically evaluates and labels the generated password as **Weak**, **Moderate**, or **Strong**.
+
+📋 **Copy to Clipboard**  
+Quickly copy the generated password with a single click.
+
+💾 **Save Passwords**  
+Save passwords to a `.txt` file with an optional description.
+
+💡 **Security Tips**  
+Provides useful tips for creating and managing strong passwords.
+
+---
+
+## 🛠️ Technologies
+
+- 🐍 **Python 3.x**  
+- 🖼️ **Tkinter** – for the graphical user interface  
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Installation
+
+Make sure you have **Python 3.x** installed. You can download it from:  
+👉 [https://www.python.org/downloads](https://www.python.org/downloads)
+
+### ▶️ Running the App
+
+1. Clone or download this repository.
+2. Save the script as `password_generator.py`.
+3. Run it via terminal or your favorite IDE:
+
+```bash
+python password_generator.py
 ```
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
+---
 
-## Licença
-Este projeto é licenciado sob a MIT License.
+## ⚙️ How to Use
 
-## Contato
-Para dúvidas ou sugestões, entre em contato pelo e-mail: anderson_moegel@hotmail.com 
+1. **Set Password Length**  
+2. **Select Components**:  
+   ✅ Uppercase letters  
+   ✅ Lowercase letters  
+   ✅ Numbers  
+   ✅ Symbols  
+3. **(Optional)** Choose a memorable password style  
+4. **Click "Generate Password"**  
+5. **Copy** or **Save** the password using the respective buttons
+
+---
+
+## 🧪 Example Usage
+
+```python
+password = generate_password(length=16, uppercase=True, lowercase=True, numbers=True, symbols=True)
+print(password)
+```
+
+---
+
+## 🙌 Contributions
+
+Contributions are welcome!  
+Feel free to open a **pull request** or report **issues** in the repository.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+
+---
+
+## 📬 Contact
+
+💌 For questions or suggestions, contact:  
+**anderson_moegel@hotmail.com**
